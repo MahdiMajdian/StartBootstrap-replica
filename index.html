@@ -9,20 +9,38 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/13e30f32fe.js" crossorigin="anonymous"></script>
+		<!-- Montserrat Font link -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+		<!-- Lato Font link -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
 		<title>Hello, world!</title>
 	</head>
 	<body>
 		<div class="container-fluid w-100 h-100 p-0 m-0">
-			<nav class="navbar navbar-expand-lg bg-nav w-100 fixed-top flex-column justify-content-between text-white py-4 px-3">
+			<nav class="navbar navbar-expand-lg bg-nav w-100 fixed-top navbar-shrink flex-column justify-content-between text-white py-4 px-3">
 				<div class="container" style="height: 3.5rem">
 					<div class="title">
-						<a style="font-size: 1.5rem; font-weight: bold" class="navbar-brand text-white">START BOOTSTRAP</a>
+						<a style="font-size: 1.75rem; font-weight: bold" class="navbar-brand text-white">START BOOTSTRAP</a>
 					</div>
-					<div class="menu">
-						<button class="btn btn-pistachio rounded" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+					<div class="menu d-flex justify-content-end align-items-center">
+						<button class="btn btn-pistachio rounded-lg d-sm-block d-lg-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 							Menu
 							<i class="fa fa-bars px-1"></i>
 						</button>
+						<ul class="list-unstyled m-0 d-none d-lg-flex">
+							<li>
+								<a class="p-3 mx-1 text-white" style="font-size: 1rem; font-weight: bold" href="#">PORTFOLIO</a>
+							</li>
+							<li>
+								<a class="p-3 mx-1 text-white" style="font-size: 1rem; font-weight: bold" href="#">ABOUT</a>
+							</li>
+							<li>
+								<a class="p-3 mx-1 text-white" style="font-size: 1rem; font-weight: bold" href="#">CONTACT</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="collapse w-100 bg-nav" id="collapseExample">
@@ -41,20 +59,20 @@
 					</div>
 				</div>
 			</nav>
-			<header class="header bg-pistachio d-flex flex-column align-items-center justify-content-center" style="padding-top: 12rem">
-				<img src="Images/avataaars.svg" class="header-avatar" alt="" />
-				<p style="font-size: 4.5rem; font-weight: bold" class="text-white m-0 mt-3">START BOOTSTRAP</p>
-				<div class="d-flex align-items-center text-white">
+			<header class="header bg-pistachio d-flex flex-column align-items-center justify-content-center" style="padding-top: 12.5rem; padding-bottom: 6rem">
+				<img src="Images/avataaars.svg" class="header-avatar mb-5" alt="" />
+				<h1 style="font-size: 4rem; font-weight:700; line-height: 3.5rem" class="text-white m-0">START BOOTSTRAP</h1>
+				<div class="d-flex align-items-center text-white mb-4" style="margin-top: 1.25rem">
 					<span class="line-white mr-3"></span>
 					<i class="fa fa-star" style="font-size: 2rem"></i>
 					<span class="line-white ml-3"></span>
 				</div>
-				<p style="font-size: 1.55rem; font-weight: 400; margin-bottom: 7rem" class="text-white">Graphic Artist - Web Designer - Illustrator</p>
+				<p style="font-family: 'Lato'; font-size: 1.5rem; font-weight: 500" class="text-white">Graphic Artist - Web Designer - Illustrator</p>
 			</header>
 			<main>
 				<section class="section" id="portfolio">
 					<div class="container w-100 h-100 d-flex flex-column align-items-center">
-						<p style="font-size: 3rem; font-weight: bold" class="text-nav m-0">START BOOTSTRAP</p>
+						<p style="font-size: 3rem; font-weight: bold" class="text-nav m-0">PORTFOLIO</p>
 						<div class="d-flex align-items-center text-nav mt-3 mb-4">
 							<span class="line-nav mr-3"></span>
 							<i class="fa fa-star" style="font-size: 2rem"></i>
@@ -65,24 +83,25 @@
 								<img src="Images/portfolio.png" class="img-fluid rounded" alt="" />
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-								<img src="Images/portfolio.png" class="img-fluid rounded" alt="" />
+								<img src="Images/portfolio2.png" class="img-fluid rounded" alt="" />
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-12 mb-5">
 								<img src="Images/portfolio.png" class="img-fluid rounded por" alt="" />
 							</div>
 
 							<div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-								<img src="Images/portfolio.png" class="img-fluid rounded" alt="" />
+								<img src="Images/portfolio2.png" class="img-fluid rounded" alt="" />
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-12 mb-5">
 								<img src="Images/portfolio.png" class="img-fluid rounded" alt="" />
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-12 mb-5">
-								<img src="Images/portfolio.png" class="img-fluid rounded" alt="" />
+								<img src="Images/portfolio2.png" class="img-fluid rounded" alt="" />
 							</div>
 						</div>
 					</div>
 				</section>
+
 			</main>
 		</div>
 
