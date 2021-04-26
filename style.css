@@ -59,3 +59,19 @@ a:hover{
 .section {
 	padding: 6rem 0;
 }
+.input{
+	height: 3rem;
+}
+.input::placeholder{
+	font-size: 1.5rem;
+	font-family: 'Lato';
+	font-weight: 500;
+}
+.font{
+	font-size: 1.25rem;
+	font-family: 'Lato';
+	font-weight: 500;
+}
+.input-border{
+	border-bottom: 1px solid #e9ecef
+}
